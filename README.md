@@ -37,34 +37,62 @@ Gradle / Kotlin DSL	Configuração e build do projeto
 EncryptedSharedPreferences	Armazenamento local protegido da sessão
 
 
-🗂️ Estrutura do projeto
+🗂️ Estrutura do projeto:
 EntregaFood/
+
 ├── app/
+
 │   └── src/main/
+
 │       ├── AndroidManifest.xml
+
 │       └── java/com/entregafood/app/
+
 │           ├── MainActivity.kt
+
 │           ├── data/
+
 │           │   ├── AuthRepository.kt
+
 │           │   ├── Models.kt
+
 │           │   └── SessionStorage.kt
+
 │           └── ui/
+
 │               ├── AuthViewModel.kt
+
 │               ├── home/
+
 │               │   └── HomeScreen.kt
+
 │               ├── login/
+
 │               │   └── LoginScreen.kt
+
 │               ├── navigation/
+
 │               │   └── AppNavigation.kt
+
 │               ├── restaurant/
+
 │               │   └── RestaurantScreen.kt
+
 │               └── theme/
+
 │                   └── Theme.kt
+
 ├── gradle/
+
 ├── build.gradle.kts
+
 ├── gradle.properties
+
 ├── settings.gradle.kts
+
 └── README.md
+
+
 🚀 Como executar
 Pré-requisitos
 - Android Studio instalado.
@@ -79,6 +107,7 @@ Passo a passo
 5. Selecione um emulador ou conecte um dispositivo Android.
 6. Clique em Run ▶ para executar o aplicativo.
 Na primeira abertura, o Android Studio pode precisar baixar dependências do Gradle. Mantenha a conexão com a internet durante a sincronização.
+
 
 🔐 Acesso para demonstração
 Use as credenciais abaixo na versão atual, com autenticação simulada:
@@ -100,6 +129,7 @@ Esta lista representa ideias de evolução, não funcionalidades já concluídas
 
 🎓 Contexto acadêmico
 Projeto desenvolvido no contexto de Sistemas de Informação, para a matéria de desenvolvimento de sistemas do professor Gilberto, com foco em desenvolvimento de aplicações mobile, arquitetura de interface e organização de código.
+
 👩‍💻 Autoria 
 Anna Julia Higa Farincho
 Leticia Macedo
