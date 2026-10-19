@@ -97,6 +97,7 @@ Essas credenciais são exclusivas para demonstração e não devem ser utilizada
 - [ ] Criar testes automatizados para as principais funcionalidades.
 - [ ] Aprimorar acessibilidade, feedbacks e estados de carregamento.
 Esta lista representa ideias de evolução, não funcionalidades já concluídas.
+
 🎓 Contexto acadêmico
 Projeto desenvolvido no contexto de Sistemas de Informação, para a matéria de desenvolvimento de sistemas do professor Gilberto, com foco em desenvolvimento de aplicações mobile, arquitetura de interface e organização de código.
 👩‍💻 Autoria 
