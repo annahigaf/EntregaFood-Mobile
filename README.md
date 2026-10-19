@@ -37,60 +37,38 @@ Gradle / Kotlin DSL	Configuração e build do projeto
 EncryptedSharedPreferences	Armazenamento local protegido da sessão
 
 
-🗂️ Estrutura do projeto:
+## 🗂️ Estrutura do projeto
+
+
 EntregaFood/
-
 ├── app/
-
-│   └── src/main/
-
-│       ├── AndroidManifest.xml
-
-│       └── java/com/entregafood/app/
-
-│           ├── MainActivity.kt
-
-│           ├── data/
-
-│           │   ├── AuthRepository.kt
-
-│           │   ├── Models.kt
-
-│           │   └── SessionStorage.kt
-
-│           └── ui/
-
-│               ├── AuthViewModel.kt
-
-│               ├── home/
-
-│               │   └── HomeScreen.kt
-
-│               ├── login/
-
-│               │   └── LoginScreen.kt
-
-│               ├── navigation/
-
-│               │   └── AppNavigation.kt
-
-│               ├── restaurant/
-
-│               │   └── RestaurantScreen.kt
-
-│               └── theme/
-
-│                   └── Theme.kt
-
+│   └── src/
+│       └── main/
+│           ├── AndroidManifest.xml
+│           └── java/com/entregafood/app/
+│               ├── MainActivity.kt
+│               ├── data/
+│               │   ├── AuthRepository.kt
+│               │   ├── Models.kt
+│               │   └── SessionStorage.kt
+│               └── ui/
+│                   ├── AuthViewModel.kt
+│                   ├── home/
+│                   │   └── HomeScreen.kt
+│                   ├── login/
+│                   │   └── LoginScreen.kt
+│                   ├── navigation/
+│                   │   └── AppNavigation.kt
+│                   ├── restaurant/
+│                   │   └── RestaurantScreen.kt
+│                   └── theme/
+│                       └── Theme.kt
 ├── gradle/
-
 ├── build.gradle.kts
-
 ├── gradle.properties
-
 ├── settings.gradle.kts
-
 └── README.md
+
 
 
 🚀 Como executar
