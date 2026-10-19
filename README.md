@@ -40,6 +40,9 @@ EncryptedSharedPreferences	Armazenamento local protegido da sessão
 ## 🗂️ Estrutura do projeto
 
 
+<details>
+<summary>📁 Clique para visualizar a estrutura completa</summary>
+
 EntregaFood/
 ├── app/
 │   └── src/
@@ -68,7 +71,7 @@ EntregaFood/
 ├── gradle.properties
 ├── settings.gradle.kts
 └── README.md
-
+</details>
 
 
 🚀 Como executar
