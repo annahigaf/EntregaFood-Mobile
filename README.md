@@ -39,39 +39,30 @@ EncryptedSharedPreferences	Armazenamento local protegido da sessão
 
 ## 🗂️ Estrutura do projeto
 
+📦 **EntregaFood**
 
-<details>
-<summary>📁 Clique para visualizar a estrutura completa</summary>
+- 📁 **app**
+  - 📁 `src/main`
+    - 📄 `AndroidManifest.xml`
+    - 📁 `java/com/entregafood/app`
+      - 📄 `MainActivity.kt`
+      - 📁 **data**
+        - `AuthRepository.kt`
+        - `Models.kt`
+        - `SessionStorage.kt`
+      - 📁 **ui**
+        - `AuthViewModel.kt`
+        - 📁 `home` → `HomeScreen.kt`
+        - 📁 `login` → `LoginScreen.kt`
+        - 📁 `navigation` → `AppNavigation.kt`
+        - 📁 `restaurant` → `RestaurantScreen.kt`
+        - 📁 `theme` → `Theme.kt`
+- 📁 **gradle**
+- 📄 `build.gradle.kts`
+- 📄 `gradle.properties`
+- 📄 `settings.gradle.kts`
+- 📄 `README.md`
 
-EntregaFood/
-├── app/
-│   └── src/
-│       └── main/
-│           ├── AndroidManifest.xml
-│           └── java/com/entregafood/app/
-│               ├── MainActivity.kt
-│               ├── data/
-│               │   ├── AuthRepository.kt
-│               │   ├── Models.kt
-│               │   └── SessionStorage.kt
-│               └── ui/
-│                   ├── AuthViewModel.kt
-│                   ├── home/
-│                   │   └── HomeScreen.kt
-│                   ├── login/
-│                   │   └── LoginScreen.kt
-│                   ├── navigation/
-│                   │   └── AppNavigation.kt
-│                   ├── restaurant/
-│                   │   └── RestaurantScreen.kt
-│                   └── theme/
-│                       └── Theme.kt
-├── gradle/
-├── build.gradle.kts
-├── gradle.properties
-├── settings.gradle.kts
-└── README.md
-</details>
 
 
 🚀 Como executar
